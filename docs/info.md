@@ -25,4 +25,4 @@ The cocotb tests in `test/` check the pin mapping, compare every output code wit
 
 ## External hardware
 
-None for the decimator alone. For a full ADC it needs a delta-sigma modulator driving `ui[0]` from a comparator output (the tile digital pins are 1.8 V, so a 3.3 V comparator output needs a level shifter or divider).
+None for the decimator alone. For a full ADC it needs a delta-sigma modulator driving `ui[0]` from a comparator output. The tile's pins use the IO supply of the board (3.3 V on the Tiny Tapeout demo board; the specification lists 1.71-5.5 V, inputs are not 5 V tolerant), so a 3.3 V comparator output can drive `ui[0]` directly; check the voltage levels of your own board.
