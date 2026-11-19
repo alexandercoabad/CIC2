@@ -1,6 +1,10 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# CIC2 decimator for a delta-sigma ADC (Tiny Tapeout, Verilog)
+
+2nd-order CIC decimator (R = 128, 15-bit word, 10-bit code, 1-bit input on `ui[0]`), the digital half of an open-source Sky130 delta-sigma ADC. See [docs/info.md](docs/info.md). Built from the Tiny Tapeout Verilog template below.
+
+## Tiny Tapeout Verilog Project Template
 
 - [Read the documentation for project](docs/info.md)
 
