@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
   title:        "CIC2 decimator for a delta-sigma ADC"
-  author:       "TODO: your name"      # TODO: replace
+  author:       "Alexander Co Abad"      # TODO: replace
   discord:      ""
   description:  "2nd-order CIC decimator (R=128, 15-bit word) turning a 1-bit delta-sigma bitstream into a 10-bit code at fclk/128"
   language:     "Verilog"
